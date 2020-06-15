@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WS Hub Example</title>
+</head>
+<body>
+    <script src="ws.js"></script>
+    <script>
+        "use strict";
+
+        window.addEventListener("load", main);
+
+        function main() {
+            const ws = new WebSocketManager;
+            ws.init();
+        }
+    </script>
+</body>
+</html>
